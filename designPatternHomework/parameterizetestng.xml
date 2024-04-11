@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TestSuite">
+    <test name="fillingForm1">
+        <parameter name="firstName" value="firstName1" />
+        <parameter name="lastName" value="lastName1" />
+        <parameter name="gender" value="Male" />
+        <parameter name="number" value="1234567891" />
+        <classes>
+            <class name="ge.tbcitacademy.demoqa.FormTests">
+                <methods>
+                    <include name="fillFormWithParameters"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="fillingForm2">
+        <parameter name="firstName" value="firstName2" />
+        <parameter name="lastName" value="lastName2" />
+        <parameter name="gender" value="Female" />
+        <parameter name="number" value="2375893452" />
+        <classes>
+            <class name="ge.tbcitacademy.demoqa.FormTests">
+                <methods>
+                    <include name="fillFormWithParameters"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="fillingForm3">
+        <parameter name="firstName" value="firstName3" />
+        <parameter name="lastName" value="lastName3" />
+        <parameter name="gender" value="Female" />
+        <parameter name="number" value="0987239439" />
+        <classes>
+            <class name="ge.tbcitacademy.demoqa.FormTests">
+                <methods>
+                    <include name="fillFormWithParameters"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
