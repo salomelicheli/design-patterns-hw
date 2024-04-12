@@ -1,0 +1,121 @@
+package ge.tbcitacademy.data;
+
+public class Constants {
+    public static final String kTabFinder = "div[id*='C713']";
+    public static final String partialHeader = "[data-opti-expid='";
+    public static final String prices = ".js-price";
+    public static final String name1 = "Kendo UI";
+    public static final String name2 = "KendoReact";
+    public static final String price1 = "1,149";
+    public static final String price2 = "999";
+    public static final String OPTION_TEXT = "Please select an option";
+    public static final String OPTION = "Option 2";
+    public static final String name = "Salome Licheli";
+    public static final String email = "email@gmail.com";
+    public static final String currentAddress = "Tbilisi";
+    public static final String permAddress = "muxiani";
+    public static final String typeConst = "type";
+    public static final String checkboxConst = "checkbox";
+    public static final String emailConst = "email";
+    public static final String priorSupportText = "Priority Support";
+    public static final String ninjaTitle = "Kendo Ui Ninja";
+    public static final String pricingText = "Pricing";
+    public static final String indProd = "Individual Products";
+    public static final String pricingsCSS = "tr.Pricings-name";
+    public static final String SELECTO = " th.UI div ul";
+    public static final String DEVCRAFT_UI = "DevCraft UI";
+    public static final String DEVCRAFT_ULTIMATE = "DevCraft Ultimate";
+    public static final String ISSUE_ESC ="Issue escalation";
+    public static final String END_TO_END ="End-to-end report management solution";
+    public static final String rapidTesting = "Mocking solution for rapid unit testing";
+    public static final String video = "Access to on-demand videos";
+    public static final String TElerikrep = "Telerik Report Server";
+    public static final String UserInstance = "1 instance with 15 users";
+    public static final String telerikTestStudio = "Telerik Test Studio Dev Edition";
+    public static final String Kendo_Ui = "Kendo UI for jQuery";
+    public static final String telerikreportyin= "Telerik Reporting";
+    public static final String TELERIK= "https://www.telerik.com/support/demos";
+    public static final String Link2 = "http://the-internet.herokuapp.com/checkboxes";
+    public static final String Link3 = "http://the-internet.herokuapp.com/dropdown";
+    public static final String Link4  ="https://demoqa.com/text-box";
+    public static final String usefulLocator = "td[data-label*='Licenses'] div.col-md-6 span";
+    public static final String usefulLocator2 = "td[data-label*='Maintenance']";
+    public static final String someLoc = " div.col-md-6";
+    public static final String complete = "th.Complete";
+    public static String someName = "name";
+    public static String someLastName = "last name";
+    public static String someNumber = "5555555";
+    public static String someAddress = "tbls";
+    public static String someCompany = "someCmpny";
+    public static String someCity = "Tbilisi";
+    public static String postalCote = "1444";
+    public static String cookies = "Accept Cookies";
+    public static String loccC = "div[id*='C329'] .HoverImg.u-mb1";
+    public static String demos = "UI for Vue demos";
+    public static String purple = "rgba(40, 46, 137, 0.75)";
+    public static String backgroundColor = "background-color";
+    public static final String books = "https://demoqa.com/books";
+    public static final String dropDown = " .k-dropdown-wrap";
+    public static final String booksLink = "https://demoqa.com/books";
+    public static final String patternsMessage = "Learning JavaScript Design Patterns";
+    public static final String jsLocator  = "//a[contains(text(), 'JavaScript')]";
+    public static final String appStore  ="Download on the App Store";
+    public static final String frommicrosoft="Get it from Microsoft";
+    public static final String googlePlay = "Get it on Google Play";
+
+    //descriptions
+    public static final String description1 ="Validating bundle offers";
+    public static final String description2 = "validating individual offers";
+    public static final String description3 = "checkboxes test";
+    public static final String description4 = "drop down test";
+    public static final String description5 = "collections test";
+    public static final String description6 ="validating demos design";
+    public static final String description7 ="validating order mechanics";
+    public static final String description8 = "chained locators test";
+    public static final String description9 ="soft asserts test";
+
+    //data
+    public static final String firstName = "somename1";
+    public static final String gmail = "email@gmail.com";
+    public static final String currentAddr = "muxiani";
+    public static final String permanentAddr = "Georgia";
+    public static final String firstName2 = "somename2";
+    public static final String gmail1 = "email2@gmail.com";
+    public static final String currentAddrs = "London";
+    public static final String permAddrss = "UK";
+    //swoop
+
+    public static final String percentageLoc = "//div[@class='special-offer-discount-percent']/p" ;
+    public static final String fullPriceLoc = "//following-sibling::p";
+    public static final String pricesLabelLoc = "//div[@class = 'outs-and-shorts']";
+    public static final String offerCss = "div.special-offer";
+    public static final String textToSearch  ="ბურგერ";
+    public static final String descriptionTextLabel = "/ancestor::div[@class='special-offer-title']//following-sibling::div//";
+    public static final String buttonXPath = "//a[./img[contains(@src, 'arrow-01')]]";
+    public static final String message1 =  " Item can not be added to the basket";
+    public static final String demoQASite = "https://demoqa.com/automation-practice-form";
+    public static final String swoopSite ="https://swoop.ge";
+    public static final String specialOfferTitle = "div.special-offer-title p";
+    public static final String someName1 = "somename1";
+    public static final String someName2 = "somename2";
+    public static final String someName3 = "somename3";
+    public static final String someLastName1 = "somelastname1";
+    public static final String someLastName2 = "somelastname2";
+    public static final String someLastName3 = "somelastname3";
+    public static final String number1 = "5681223450";
+    public static final String number2 = "5574323891";
+    public static final String number3 = "5550192342";
+    public static final String Male = "Male";
+    public static final String Female = "Female";
+    public static final String sumCompany = "Company";
+    public static final String zipcode = "1234";
+
+    public static final String CINEMA = "კინო";
+    public static final String AESTHETICS = "ესთეტიკა";
+    public static final String HOLIDAY = "დასვენება";
+    public static final String RESTO = "კვება";
+    public static final String KIDS = "საბავშვო";
+    public static final String ENTERTAINMENT = "გართობა";
+    public static final String SPORTS = "სპორტი";
+
+}
